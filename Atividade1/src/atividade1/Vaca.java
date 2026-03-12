@@ -1,0 +1,12 @@
+
+package atividade1;
+public class Vaca extends Animal {
+    public Vaca(String nome, int idade, double peso) {
+    super(nome, idade, peso);
+    }
+  @Override
+    public void emitirSom() {
+        System.out.println("muu");
+    }   
+}
+
